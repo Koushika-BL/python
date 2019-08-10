@@ -1,4 +1,5 @@
-for r in range(0,5):
-    for  a in range(0,r+1):
-        print('*',end=" ")
+n=int(input("enter a number"))
+for r in range(0,n):
+    for  t in range(0,r+1):
+        print("*",end=" ",)
     print("\r")
